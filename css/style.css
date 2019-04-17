@@ -74,7 +74,8 @@ body {
 	this property determines if the back part of the element is visible or hidden when I transform*/
   backface-visibility: hidden;
   margin-bottom: 5rem; }
-  .heading-primary--main {
+  .heading-primary
+{
     display: block;
     font-size: 1.6rem;
     font-weight: 400;
@@ -90,6 +91,7 @@ body {
     @media (max-width: 37.5em) {
       .heading-primary--main {
         letter-spacing: 1rem;
+	margin-left:3rem;
         font-family: 5rem; } }
   .heading-primary--sub {
     font-family: 'Syncopate', sans-serif;
